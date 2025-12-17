@@ -1,0 +1,17 @@
+{
+  "task": "binary_classification",
+  "problem": "Predicao de conversao MCI para Demencia em 3 anos",
+  "target_classes": [
+    "Nao-Conversor",
+    "Conversor"
+  ],
+  "n_features": 20,
+  "feature_names": [],
+  "models_available": [
+    "logistic_regression_optimized",
+    "svm_rbf_optimized",
+    "advanced_mlp_all"
+  ],
+  "best_model": "svm_rbf_optimized",
+  "onnx_directory": "../models/onnx/"
+}
